@@ -19,42 +19,44 @@
     </div>
     <div class="form-section">
         <header class="form-header">
-            <h2>This is not a real online service!</h2>
-            <p>You know you need something like this in your life to help you realize your deepest dreams.</p>
-            <p>Sign up now to get started. You know you want to.</p>
+            <p>This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started. </p>
+            <p>You <em>know</em> you want to.</p>
         </header>
         <div class="form-container">
             <h2>Let's do this!</h2>
-            <form action="" class="form" method="post">
+            <form action="" class="form" method="post" id="signup-form">
                 <div class="input-group">
-                    <label for="">name</label>
+                    <label for="">first name</label>
                     <input type="text" name="" id="">
                 </div>
                 <div class="input-group">
-                    <label for="">name</label>
-                    <input type="text" name="" id="">
+                    <label for="">last name</label>
+                    <input type="text" name="" id="" class="focus">
                 </div>
                 <div class="input-group">
-                    <label for="">name</label>
-                    <input type="text" name="" id="">
+                    <label for="">email</label>
+                    <input type="email" name="" id="">
                 </div>
                 <div class="input-group">
-                    <label for="">name</label>
-                    <input type="text" name="" id="">
+                    <label for="">phone number</label>
+                    <input type="tel" name="" id="">
                 </div>
                 <div class="input-group">
-                    <label for="">name</label>
-                    <input type="text" name="" id="">
+                    <label for="">password</label>
+                    <input type="password" name="" id="password">
+                    <span class="error-message"></span>
                 </div>
                 <div class="input-group">
-                    <label for="">name</label>
-                    <input type="text" name="" id="">
+                    <label for="">confirm password</label>
+                    <input type="password" name="" id="" required>
                 </div>
             </form>
         </div>
         <div class="signup-container">
-            <button type="submit">create account</button>
-            <p>already have an account? <a href="#">log in</a></p>
+            <button type="submit" for="signup-form">create account</button>
+            <p>Already have an account? <a href="#">log in</a></p>
         </div>
     </div> <!-- end form section -->
 </body>
